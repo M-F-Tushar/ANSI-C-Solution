@@ -1,0 +1,23 @@
+/*Write a C program that reads the value of distance travelled by a
+car and the time taken for the same. Next, compute the speed at
+which the car travelled.
+*/
+
+#include <stdio.h>
+
+int main() {
+    float distance, time, speed;
+
+    printf("Enter distance (km): ");
+    scanf("%f", &distance);
+    printf("Enter time (hours): ");
+    scanf("%f", &time);
+
+    if (time != 0) {
+        speed = distance / time;
+        printf("Speed of the car: %.2f km/h\n", speed);
+    } else {
+        printf("Time cannot be zero.\n");
+    }
+
+    return 0;
