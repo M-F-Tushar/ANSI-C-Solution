@@ -1,0 +1,8 @@
+**2.14 Describe the process of creating and executing a C program under UNIX system.**
+**Answer:**
+1. Create the program using a text editor (e.g., `vi`).
+2. Save the file with a `.c` extension (e.g., `program.c`).
+3. Compile the program using the `cc` command: `cc program.c`.
+4. Execute the program using `./a.out`.
+
+
