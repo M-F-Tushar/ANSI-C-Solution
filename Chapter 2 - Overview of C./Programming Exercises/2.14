@@ -1,0 +1,14 @@
+//Find equation of a circle given center and radius
+#include <stdio.h>
+
+int main() {
+    double h, k, r;
+
+    printf("Enter center coordinates (h k): ");
+    scanf("%lf %lf", &h, &k);
+    printf("Enter radius: ");
+    scanf("%lf", &r);
+
+    printf("Equation of the circle: (x - %.2lf)^2 + (y - %.2lf)^2 = %.2lf\n", h, k, r*r);
+    return 0;
+}
