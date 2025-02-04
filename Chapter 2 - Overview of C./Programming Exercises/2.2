@@ -1,0 +1,19 @@
+//Write a C program that uses an in-built function to draw a 3D bar.
+#include <graphics.h>
+
+int main() {
+    int gd = DETECT, gm;
+    initgraph(&gd, &gm, "C:\\Turboc3\\BGI");
+
+    bar3d(100, 100, 200, 200, 20, 1);
+
+    getch();
+    closegraph();
+    return 0;
+}
+/*Explanation:
+
+Uses graphics.h to implement bar3d(), which draws a 3D bar.
+initgraph() initializes graphics mode.
+bar3d(x1, y1, x2, y2, depth, topflag) draws a 3D bar.
+*/
