@@ -1,0 +1,11 @@
+//Print the given shape using characters
+#include <stdio.h>
+
+int main() {
+    printf("  ______    -->    ______  \n");
+    printf(" |      |         |      | \n");
+    printf(" |      |         |      | \n");
+    printf(" |______|         |______| \n");
+    return 0;
+}
+
