@@ -1,0 +1,16 @@
+//Compute area of a circle given diameter
+#include <stdio.h>
+#define PI 3.14159
+
+int main() {
+    double d, r, area;
+
+    printf("Enter the diameter: ");
+    scanf("%lf", &d);
+
+    r = d / 2;
+    area = PI * r * r;
+
+    printf("Area of the circle: %.2lf\n", area);
+    return 0;
+}
