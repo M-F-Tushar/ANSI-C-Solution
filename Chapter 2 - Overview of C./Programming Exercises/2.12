@@ -1,0 +1,16 @@
+/Display a simple arithmetic calculator
+#include <stdio.h>
+
+int main() {
+    double x, y;
+
+    printf("Enter two numbers: ");
+    scanf("%lf %lf", &x, &y);
+
+    printf("Sum = %.2lf\n", x + y);
+    printf("Difference = %.2lf\n", x - y);
+    printf("Product = %.2lf\n", x * y);
+    printf("Division = %.2lf\n", x / y);
+
+    return 0;
+}
