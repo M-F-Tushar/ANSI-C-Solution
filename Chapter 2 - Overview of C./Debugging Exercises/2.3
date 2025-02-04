@@ -1,0 +1,26 @@
+**2.3 Find errors, if any, in the following program:**  
+```c
+Include <math.h> 
+main { } 
+{ 
+    FLOAT X; 
+    X - 2.5; 
+    Y - exp(x); 
+    Print(x,y); 
+} 
+```
+**Answer:**  
+1. `Include` should be `#include`.  
+2. `main` should be `main()`.  
+3. `FLOAT` should be `float`.  
+4. `Print` should be `printf`.  
+**Corrected Code:**  
+```c
+#include <math.h> 
+main() 
+{ 
+    float x; 
+    x = 2.5; 
+    y = exp(x); 
+    printf("%f %f", x, y); 
+} 
