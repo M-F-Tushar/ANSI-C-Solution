@@ -1,0 +1,27 @@
+/*Write a program using one print statement to print the
+pattern of asterisks as shown below:
+*
+* *
+* * *
+* * * *
+* * * * *
+
+*/
+#include <stdio.h>
+
+int main() {
+    int i, j;
+    for(i = 1; i <= 5; i++) {
+        for(j = 1; j <= i; j++) {
+            printf("* ");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+/*Explanation:
+The outer loop (i) controls the number of rows.
+The inner loop (j) prints i asterisks in each row.
+printf("* ") prints an asterisk followed by a space for spacing.
+printf("\n") moves to the next line after printing a row.*/
