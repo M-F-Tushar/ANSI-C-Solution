@@ -1,0 +1,22 @@
+/*Given the values of three variables a, b and c, write a program to
+compute and display the value of x, where x = (a - b) / c*/
+
+
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+    float x;
+
+    // Case 1
+    a = 250; b = 85; c = 25;
+    x = (float)(a - b) / c;
+    printf("For a=%d, b=%d, c=%d: x = %.2f\n", a, b, c, x);
+
+    // Case 2
+    a = 300; b = 70; c = 70;
+    x = (float)(a - b) / c;
+    printf("For a=%d, b=%d, c=%d: x = %.2f\n", a, b, c, x);
+
+    return 0;
+}
