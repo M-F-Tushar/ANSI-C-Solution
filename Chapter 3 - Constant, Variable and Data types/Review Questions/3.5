@@ -1,0 +1,3 @@
+3.5 What is the purpose of the volatile qualifier?
+The volatile qualifier tells the compiler that the value of the variable can change at any time, outside the control of the program (e.g., hardware interrupts). This prevents the compiler from optimizing the variable. For example:
+volatile int signal;
