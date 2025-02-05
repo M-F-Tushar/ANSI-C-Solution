@@ -1,0 +1,14 @@
+3.17 What would be the value of x after execution of the following statements?
+int x, y = 10;
+char z = 'a';
+x = y + z;
+
+
+Explanation:
+y = 10; (integer assigned to y)
+z = 'a'; (char stores ASCII value of 'a', which is 97)
+x = y + z;
+x = 10 + 97;
+x = 107;
+Final value of x: 107
+
