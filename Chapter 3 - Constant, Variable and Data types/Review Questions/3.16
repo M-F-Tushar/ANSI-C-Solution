@@ -1,0 +1,23 @@
+3.16 Which of the following are invalid variable names and why?
+Given variable names:
+Minimum       First.name    n1+n2  
+doubles       3rd_row      n$  
+float         Sum Total    Row1  
+&name         Column-total
+
+Analysis:
+✅ Valid Variable Names:
+
+Minimum (Valid identifier)
+Row1 (Valid identifier)
+❌ Invalid Variable Names:
+
+First.name → Invalid because . (dot) is not allowed in variable names.
+n1+n2 → Invalid because + is not allowed in variable names.
+doubles → Invalid because double is a keyword in C.
+3rd_row → Invalid because variable names cannot start with a number.
+n$ → Invalid because $ is not allowed in variable names.
+float → Invalid because float is a keyword in C.
+Sum Total → Invalid because spaces are not allowed in variable names.
+&name → Invalid because & is a special character in C.
+Column-total → Invalid because - is not allowed in variable names.
