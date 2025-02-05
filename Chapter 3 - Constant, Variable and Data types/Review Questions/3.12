@@ -1,0 +1,4 @@
+3.12 What are enumeration variables? How are they declared? What is the advantage of using them in a program?
+Enumeration variables are user-defined data types that consist of integral constants. They are declared using the enum keyword:
+  enum days {SUN, MON, TUE, WED, THU, FRI, SAT};
+Advantage : Enumerations improve code readability and maintainability by giving meaningful names to constants.
