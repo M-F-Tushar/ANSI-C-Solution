@@ -1,0 +1,4 @@
+3.14 When dealing with very small or very large numbers, what steps would you take to improve the accuracy of the calculations?
+Use appropriate data types like double or long double for higher precision.
+Avoid subtracting nearly equal numbers, as it can lead to loss of significant digits.
+Scale numbers appropriately to avoid overflow or underflow.
