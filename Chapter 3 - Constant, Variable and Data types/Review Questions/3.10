@@ -1,0 +1,2 @@
+3.10 Is it possible to declare an identifier that ends with an underscore?
+Yes , it is allowed, but it is uncommon and generally avoided for readability.
