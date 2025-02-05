@@ -1,0 +1,3 @@
+3.13 Describe the purpose of the qualifiers const and volatile.
+const : Ensures that the value of a variable cannot be modified.
+volatile : Indicates that the value of a variable can change unexpectedly (e.g., due to hardware interrupts).
