@@ -1,0 +1,29 @@
+3.18 Explain the following with examples
+(a) Enumerated Types
+An enumeration (enum) is a user-defined data type that assigns names to integral constants.
+
+Example:
+#include <stdio.h>
+enum Color { RED, GREEN, BLUE };
+
+int main() {
+    enum Color myColor;
+    myColor = GREEN;
+    printf("The value of GREEN is: %d\n", myColor); // Output: 1
+    return 0;
+}
+Here, RED = 0, GREEN = 1, and BLUE = 2.
+
+(b) typedef
+typedef is used to create an alias for existing data types.
+
+Example:
+#include <stdio.h>
+typedef unsigned int uint;
+
+int main() {
+    uint x = 100; // Equivalent to unsigned int x = 100;
+    printf("Value of x: %u\n", x);
+    return 0;
+}
+Here, uint is an alias for unsigned int.
