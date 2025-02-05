@@ -1,0 +1,59 @@
+3.19 Distinguish between the following
+
+(a) Global and Local Variables
+Feature	Global Variable	Local Variable
+Scope	Available throughout the program	Available only in the function/block where declared
+Storage	Stored in the data segment	Stored in the stack
+Default Value	0 (if uninitialized)	Garbage value (if uninitialized)
+Lifetime	Exists till program ends	Exists till function execution ends
+Example:
+#include <stdio.h>
+
+int globalVar = 10; // Global variable
+
+void func() {
+    int localVar = 20; // Local variable
+    printf("Local Variable: %d\n", localVar);
+}
+
+int main() {
+    printf("Global Variable: %d\n", globalVar);
+    func();
+    return 0;
+}
+
+
+(b) Initialization vs. Assignment
+Feature	Initialization	Assignment
+When?	At the time of declaration	After declaration
+Example	int x = 10;	x = 20;
+Example:
+int x = 5;  // Initialization
+x = 10;     // Assignment
+
+
+(c) Automatic vs. Static Variables
+Feature	Automatic Variables	Static Variables
+Storage Class	auto (default)	static
+Lifetime	Exists only during function execution	Retains value between function calls
+Scope	Local to function/block	Local but persists across calls
+Example:
+#include <stdio.h>
+
+void func() {
+    static int x = 0;  // Static variable
+    x++;
+    printf("Static x: %d\n", x);
+}
+
+int main() {
+    func();
+    func();
+    func();
+    return 0;
+}
+Output:
+Static x: 1
+Static x: 2
+Static x: 3
+Here, x retains its value across function calls.
