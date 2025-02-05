@@ -1,0 +1,5 @@
+3.11 A programmer would like to use the word DPR to declare all the double-precision floating-point values in his program. How could he achieve this?
+He can use a typedef declaration:
+  typedef double DPR;
+Now, DPR can be used as a shorthand for double:
+  DPR x = 10.5;
