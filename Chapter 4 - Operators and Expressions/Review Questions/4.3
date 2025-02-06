@@ -1,0 +1,19 @@
+4.3 Given the statement int a = 10, b = 20, c;, determine whether each of the following statements is true or false:
+(a) The statement a = +10; is valid.
+Answer: True
+Explanation: The unary + operator is valid, though redundant.
+(b) The expression a + 4/6 * 6/2 evaluates to 11.
+Answer: False
+Explanation: Integer division truncates the decimal part. The expression evaluates to 10 + 0 = 10.
+(c) The expression b + 3/2 * 2/3 evaluates to 20.
+Answer: True
+Explanation: Integer division results in b + 0 = 20.
+(d) The statement a += b; gives the values 30 to a and 20 to b.
+Answer: True
+Explanation: a += b is equivalent to a = a + b, so a = 10 + 20 = 30.
+(e) The statement ++a++; gives the value 12 to a.
+Answer: False
+Explanation: ++a++ is invalid because a++ is not an lvalue.
+(f) The statement a = 1/b; assigns the value 0.5 to a.
+Answer: False
+Explanation: Since a is an integer, the result of 1/2 (which is 0.5) is truncated to 0.
