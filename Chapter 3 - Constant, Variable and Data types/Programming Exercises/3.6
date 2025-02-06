@@ -1,0 +1,15 @@
+3.6 Write a program to illustrate the use of symbolic constants in a real-life application.
+#include <stdio.h>
+
+#define PI 3.14159
+
+void main() {
+    float radius, area;
+
+    printf("Enter the radius of the circle: ");
+    scanf("%f", &radius);
+
+    area = PI * radius * radius;
+
+    printf("Area of the circle: %.2f\n", area);
+}
