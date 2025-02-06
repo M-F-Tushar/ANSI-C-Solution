@@ -1,0 +1,17 @@
+3.11 Write a C program to input the distance traveled by a car and the fuel consumed. Next, compute the mileage of the car.
+
+#include <stdio.h>
+
+void main() {
+    float distance, fuel, mileage;
+
+    printf("Enter the distance traveled (in km): ");
+    scanf("%f", &distance);
+
+    printf("Enter the fuel consumed (in liters): ");
+    scanf("%f", &fuel);
+
+    mileage = distance / fuel;
+
+    printf("Mileage of the car: %.2f km/l\n", mileage);
+}
