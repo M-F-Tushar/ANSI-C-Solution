@@ -1,0 +1,66 @@
+ **Interview Questions**
+
+#### **3.1 Is it possible to declare an identifier that starts with an underscore?**
+
+- **Answer**:  
+Yes, it is possible to declare an identifier that starts with an underscore. However, it is not recommended because identifiers starting with an underscore are often reserved for system libraries and internal use. This can lead to conflicts or unexpected behavior.
+
+---
+
+#### **3.2 Is it possible to declare an identifier that ends with an underscore?**
+
+- **Answer**:  
+Yes, it is possible to declare an identifier that ends with an underscore. While it is allowed, it is uncommon and generally avoided for readability and consistency. Identifiers ending with underscores do not have any special restrictions like those starting with underscores.
+
+---
+
+#### **3.3 What is the return type of the `printf` function?**
+
+- **Answer**:  
+The `printf` function returns an `int`, which represents the number of characters printed to the output stream. For example:
+```c
+int count = printf("Hello, World!"); // count will be 13
+```
+
+---
+
+#### **3.4 What is the difference between declaring and defining a variable?**
+
+- **Answer**:  
+- **Declaration**: Tells the compiler about the name and type of a variable but does not allocate memory for it. Example:
+  ```c
+  extern int x; // Declaration
+  ```
+- **Definition**: Allocates memory for the variable and may also initialize it. Example:
+  ```c
+  int x = 10; // Definition
+  ```
+
+---
+
+#### **3.5 What is `long long int`?**
+
+- **Answer**:  
+`long long int` is an extended integer data type in C that provides a larger range than `long int`. It typically uses 8 bytes (64 bits) of memory and can store values in the range:
+- **Signed**: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+- **Unsigned**: 0 to 18,446,744,073,709,551,615
+
+Example:
+```c
+long long int bigNumber = 123456789012345LL;
+```
+
+---
+
+#### **3.6 What is the return type of the `scanf` function?**
+
+- **Answer**:  
+The `scanf` function returns an `int`, which indicates the number of input items successfully matched and assigned. For example:
+```c
+int numItems = scanf("%d %f", &x, &y); // numItems will be 2 if both inputs are read successfully
+```
+If no items are matched or an error occurs, `scanf` returns `EOF`.
+
+---
+
+These answers cover all the interview questions from **3.1 to 3.6**. If you need further clarification or additional help, feel free to ask!
