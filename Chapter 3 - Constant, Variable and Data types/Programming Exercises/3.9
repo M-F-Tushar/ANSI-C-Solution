@@ -1,0 +1,16 @@
+3.9 Write a C program to input an integer between 0 and 128 and print its ASCII character.
+
+#include <stdio.h>
+
+void main() {
+    int num;
+
+    printf("Enter an integer between 0 and 128: ");
+    scanf("%d", &num);
+
+    if (num >= 0 && num <= 128) {
+        printf("ASCII character for %d: %c\n", num, num);
+    } else {
+        printf("Invalid input. Please enter a number between 0 and 128.\n");
+    }
+}
