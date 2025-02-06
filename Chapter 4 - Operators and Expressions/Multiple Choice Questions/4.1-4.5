@@ -1,0 +1,62 @@
+Multiple Choice Questions
+
+4.1 Which of the following is not an arithmetic operator?
+Options:
+(a) %
+(b) /
+(c) *
+(d) All of the above are arithmetic operators
+Answer:
+(d) All of the above are arithmetic operators
+Explanation:
+All the listed operators (%, /, *) are indeed arithmetic operators in C. The modulus operator (%) returns the remainder of a division, / performs division, and * performs multiplication.
+
+4.2 Which of the following is an assignment operator?
+Options:
+(a) =
+(b) %=
+(c) /=
+(d) All of the above
+Answer:
+(d) All of the above
+Explanation:
+All the listed operators (=, %=, /=) are assignment operators. The simple assignment operator (=) assigns a value to a variable, while compound assignment operators like %=, /=, etc., perform an operation and assign the result to the variable.
+
+4.3 Which of the following statements is correct about increment and decrement operators?
+Options:
+(a) A prefix increment operator first adds 1 to the operand and then the result is assigned to the variable on the left.
+(b) A postfix decrement operator first assigns the value to the variable on the left and then decrements the operand.
+(c) The precedence and associativity of ++ and -- operators are the same as those of unary + and unary -.
+(d) All of the above are correct.
+Answer:
+(d) All of the above are correct
+Explanation:
+(a) is correct because the prefix increment (++x) increments the value first and then uses it in the expression.
+(b) is correct because the postfix decrement (x--) uses the current value of x in the expression and then decrements it.
+(c) is correct because the precedence and associativity of ++ and -- are indeed the same as unary + and -.
+
+
+4.4 Which of the following operators has the lowest level of precedence?
+Options:
+(a) %
+(b) &
+(c) &&
+(d) ?=
+Answer:
+(c) &&
+Explanation:
+Among the given options, the logical AND operator (&&) has the lowest precedence. The modulus operator (%) and bitwise AND (&) have higher precedence than logical AND (&&). The conditional operator (?=) is not a valid operator in C; the correct conditional operator is ?:.
+
+
+4.5 Which of the following operators is used to determine the size of the operand?
+Options:
+(a) auto
+(b) size
+(c) sizeof
+(d) &
+Answer:
+(c) sizeof
+Explanation:
+The sizeof operator is used to determine the size (in bytes) of the operand or data type. For example:
+int x;
+printf("%zu", sizeof(x)); // Outputs the size of an integer
