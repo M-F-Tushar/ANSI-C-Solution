@@ -1,0 +1,26 @@
+3.3 Write a program to count and print the number of negative and positive numbers in a given set of numbers. Test your program with a suitable set of numbers. Use scanf to read the numbers. Reading should be terminated when the value 0 is encountered.
+
+#include <stdio.h>
+
+void main() {
+    int num, positive_count = 0, negative_count = 0;
+
+    printf("Enter numbers (enter 0 to stop):\n");
+
+    while (1) {
+        scanf("%d", &num);
+
+        if (num == 0) {
+            break;
+        }
+
+        if (num > 0) {
+            positive_count++;
+        } else if (num < 0) {
+            negative_count++;
+        }
+    }
+
+    printf("Positive numbers: %d\n", positive_count);
+    printf("Negative numbers: %d\n", negative_count);
+}
