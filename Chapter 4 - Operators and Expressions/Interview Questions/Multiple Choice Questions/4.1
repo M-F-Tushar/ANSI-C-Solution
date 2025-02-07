@@ -1,0 +1,36 @@
+What will be the value of x and y after the following statements are executed?
+x = 5;
+y = x++ + ++x + x++;
+Explain the logic while calculating the answer.
+
+
+Answer:
+To evaluate this expression, we need to carefully analyze how the post-increment (x++) and pre-increment (++x) operators work in C.
+
+Step-by-Step Execution:
+Initial Value of x:
+x = 5.
+Breakdown of the Expression:
+The expression is:
+y = x++ + ++x + x++;
+First Term (x++):
+Post-increment means the current value of x (which is 5) is used in the expression, and then x is incremented by 1.
+So, the first term contributes 5, and x becomes 6.
+Second Term (++x):
+Pre-increment means x is incremented first, and then its new value is used in the expression.
+Since x is now 6, it is incremented to 7, and the second term contributes 7.
+Third Term (x++):
+Post-increment means the current value of x (which is 7) is used in the expression, and then x is incremented by 1.
+So, the third term contributes 7, and x becomes 8.
+Final Calculation:
+Adding up the contributions:
+y = 5 + 7 + 7 = 19
+Final Values:
+x = 8 (after all increments).
+y = 19.
+Explanation of Logic:
+The key here is understanding the difference between post-increment and pre-increment :
+
+Post-increment (x++) uses the current value of x in the expression and increments x afterward.
+Pre-increment (++x) increments x first and then uses the updated value in the expression.
+
