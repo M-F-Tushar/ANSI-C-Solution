@@ -13,6 +13,7 @@ Algorithm:
 6.If D < 0, print "No real roots."
 7.Display the roots.
 8.Stop.
+
 Flowchart:
 Start → Input a, b, c → Compute D = b² - 4ac → Check D:
 If D > 0, compute and display two roots.
