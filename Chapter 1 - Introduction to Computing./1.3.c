@@ -11,6 +11,7 @@ Input P (Principal), R (Rate of Interest), T (Time in years).
 Compute SI = (P × R × T) / 100.
 Display SI.
 Stop.
+
 Flowchart:
 Start → Input P, R, T → Compute SI = (P × R × T) / 100 → Display SI → Stop.
 */
