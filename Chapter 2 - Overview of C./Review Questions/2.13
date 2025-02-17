@@ -1,8 +1,8 @@
-**2.13 Describe the structure of a C program.**
-**Answer:** A C program typically consists of:
+2.13 Describe the structure of a C program.
+Answer: A C program typically consists of:
 1. Documentation Section (comments)
 2. Link Section (header files)
 3. Definition Section (constants)
 4. Global Declaration Section (global variables)
-5. `main()` Function Section (main program logic)
+5. main() Function Section (main program logic)
 6. Subprogram Section (user-defined functions)
