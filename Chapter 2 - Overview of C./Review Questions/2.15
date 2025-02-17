@@ -1,7 +1,6 @@
 2.15 How do we implement multiple source program files?
-**Answer:** Multiple source files can be compiled and linked together using the `cc` command:
-```bash
+Answer: Multiple source files can be compiled and linked together using the cc command:
+bash
 cc file1.c file2.c -o output
-```
-This compiles `file1.c` and `file2.c` and links them into a single executable named `output`.
+This compiles file1.c and file2.c and links them into a single executable named output.
 
