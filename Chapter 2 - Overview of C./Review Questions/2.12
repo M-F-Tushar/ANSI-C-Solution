@@ -1,2 +1,2 @@
-**2.12 Where are blank spaces permitted in a C program?**
-**Answer:** Blank spaces are permitted between keywords, operators, and identifiers. They are not allowed within keywords or variable names.
+2.12 Where are blank spaces permitted in a C program?
+Answer: Blank spaces are permitted between keywords, operators, and identifiers. They are not allowed within keywords or variable names.
