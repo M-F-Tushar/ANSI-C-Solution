@@ -1,7 +1,6 @@
-/*Area of a triangle is given by the formula
-
+/*
+Area of a triangle is given by the formula
 Formula:
-
 A= s(s−a)(s−b)(s−c)
 ​Where:
 a,b,c are the sides of the triangle.
