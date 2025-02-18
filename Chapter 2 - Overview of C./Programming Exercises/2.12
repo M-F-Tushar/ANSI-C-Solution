@@ -1,4 +1,5 @@
-/Display a simple arithmetic calculator
+//Display a simple arithmetic calculator
+
 #include <stdio.h>
 
 int main() {
