@@ -6,8 +6,8 @@
 This repository contains solutions to programming exercises from the ANSI C book. Each chapter focuses on fundamental concepts of C programming with practical code examples.
 
 ## 📖 Table of Contents
-- 📂 [Chapter 1 - Introduction to Computing](Chapter%201%20-%20Introduction%20to%20Computing/)
-- 📂 [Chapter 2 - Overview of C](Chapter%202%20-%20Overview%20of%20C/)
+- 📂 [Chapter 1 - Introduction to Computing](Chapter%201%20-%20Introduction%20to%20Computing./)
+- 📂 [Chapter 2 - Overview of C](Chapter%202%20-%20Overview%20of%20C./)
 - 📂 [Chapter 3 - Constant, Variable and Data Types](Chapter%203%20-%20Constant%2C%20Variable%20and%20Data%20types/)
 - 📂 [Chapter 4 - Operators and Expressions](Chapter%204%20-%20Operators%20and%20Expressions/)
 
