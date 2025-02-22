@@ -1,0 +1,123 @@
+
+### **MULTIPLE CHOICE QUESTIONS**
+
+#### **5.1 String constants are enclosed within _______ symbols.**  
+(a) Single quote  
+(b) Double quote  
+(c) []  
+(d) None of the above  
+
+**Answer:** **(b) Double quote**  
+
+**Explanation:**  
+In C, string constants (string literals) are enclosed within double quotes (`"..."`). For example:  
+```c
+char str[] = "Hello, World!";
+```
+On the other hand, single quotes (`'...'`) are used for character constants:  
+```c
+char ch = 'A';
+```
+
+---
+
+#### **5.2 Which of the following is used to separate specifiers in a format string within a `scanf` statement?**  
+(a) Single white space  
+(b) Comma  
+(c) Double quotes  
+(d) Semi-colon  
+
+**Answer:** **(a) Single white space**  
+
+**Explanation:**  
+In a `scanf` statement, specifiers are separated by white spaces.  
+Example:  
+```c
+int a, b;
+scanf("%d %d", &a, &b);
+```
+Here, a space separates `%d` and `%d`, ensuring two integers are read correctly.
+
+---
+
+#### **5.3 Which of the following functions can be used to print a single character as output?**  
+(a) `scanf()`  
+(b) `printf()`  
+(c) `putchar()`  
+(d) Both 2 and 3  
+
+**Answer:** **(d) Both 2 and 3**  
+
+**Explanation:**  
+- `printf()` can print a single character:  
+  ```c
+  printf("%c", 'A');
+  ```
+- `putchar()` is a specialized function for printing a single character:  
+  ```c
+  putchar('A');
+  ```
+- `scanf()` is used for input, not output.
+
+---
+
+#### **5.4 Which of the following statements are true about `scanf()` function?**  
+(a) The reading will be terminated when `scanf` encounters a "mismatch" of data or a character that is not valid for the value being read.  
+(b) The `scanf()` function returns the value of the number of items that are successfully read.  
+(c) Any unread data items in a line are considered as part of the data input line to the next `scanf()` function call.  
+(d) All of the above are true.  
+
+**Answer:** **(d) All of the above are true**  
+
+**Explanation:**  
+- `scanf()` stops reading input when it encounters a mismatch.  
+  ```c
+  int num;
+  scanf("%d", &num);  // If user enters "abc", scanf will stop reading.
+  ```
+- It returns the number of successfully read values.  
+  ```c
+  int x, y;
+  int result = scanf("%d %d", &x, &y);
+  printf("Values read: %d\n", result);
+  ```
+- Unread data remains in the buffer for the next `scanf()` call.
+
+---
+
+#### **5.5 Which of the following statements is false about `printf()` function?**  
+(a) The format specifications in a `printf()` statement should match the variables in number, order, and type.  
+(b) If the width of a value being printed by the `printf()` function is greater than the width specified in the format specification, then the value gets printed in full, overriding the minimum specification.  
+(c) Using an address operator `&` with a variable in the `printf()` statement will result in a runtime error.  
+(d) All of the above are true.  
+
+**Answer:** **(c) Using an address operator `&` with a variable in the `printf()` statement will result in a runtime error.**  
+
+**Explanation:**  
+- `printf()` does not require `&` before variables, but using it does not necessarily cause a runtime error—it just prints an incorrect value.  
+  ```c
+  int num = 10;
+  printf("%d", &num);  // Prints memory address instead of value.
+  ```
+
+---
+
+#### **5.6 Which of the following format specifiers can be used to read floating-type values?**  
+(a) `%e`  
+(b) `%f`  
+(c) `%g`  
+(d) All of the above  
+
+**Answer:** **(d) All of the above**  
+
+**Explanation:**  
+- `%f` → Used for floating-point numbers in decimal format.  
+- `%e` → Used for scientific notation.  
+- `%g` → Automatically chooses `%e` or `%f` depending on precision.  
+Example:  
+```c
+float num;
+scanf("%f", &num);
+printf("%e %f %g", num, num, num);
+```
+
