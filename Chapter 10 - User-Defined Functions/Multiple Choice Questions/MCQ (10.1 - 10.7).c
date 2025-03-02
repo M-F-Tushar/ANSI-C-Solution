@@ -13,7 +13,7 @@ Example:
 char str[] = "Hello, World!";
 Single quotes ('') are used for character constants, not string constants.
 
-5.2 Which of the following is used to separate specifiers in a format string within a scanf statement?
+5.2 Which of the following is used to separate specifiers(%d, %f) in a format string within a scanf statement?
 Options:
 (a) Single white space
 (b) Comma
@@ -84,7 +84,7 @@ Explanation:
 
 (a) True. The number, order, and type of format specifiers must match the corresponding variables.
 (b) True. If the value is longer than the specified width, printf() still prints the full value.
-(c) False. Using & in printf() doesn’t cause a runtime error but is incorrect syntax unless used with pointers.
+(c) False. Using & in printf() doesnâ€™t cause a runtime error but is incorrect syntax unless used with pointers.
 Example (Incorrect Usage):
 int x = 10;
 printf("%d", &x);  // Incorrect, &x is the address, not a valid integer value
