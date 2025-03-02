@@ -58,10 +58,10 @@ Options:
 Answer: (d) All of the above
 
 Explanation:
-
 (a) If the input does not match the expected format, scanf() stops reading.
 (b) scanf() returns the number of successfully read items.
 (c) Unread input remains in the input buffer and is available for the next scanf() call.
+    
 Example:
 int x;
 if (scanf("%d", &x) == 1) {
