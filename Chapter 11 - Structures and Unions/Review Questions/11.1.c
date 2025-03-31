@@ -115,9 +115,7 @@ This is called nested structures.
 
 Example:
 
-c
-Copy
-Edit
+
 struct Address {
     char city[20];
     int pincode;
