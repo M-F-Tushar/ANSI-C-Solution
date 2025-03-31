@@ -93,9 +93,7 @@ Arrays can be members of a structure in C.
 
 Example:
 
-c
-Copy
-Edit
+
 struct Student {
     char name[50];  // Array inside structure
     int marks[5];   // Array inside structure
