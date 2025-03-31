@@ -26,9 +26,7 @@ struct {
 
 Structures can have multiple data types:
 
-c
-Copy
-Edit
+
 struct Student {
     int id;
     float marks;
