@@ -78,9 +78,7 @@ printf("%d", ptr->x);
 
 Both dereference and arrow notation are valid:
 
-c
-Copy
-Edit
+
 printf("%d", (*ptr).x);
 printf("%d", ptr->x);
 (i) We can perform mathematical operations on structure variables that contain only numeric type members.
