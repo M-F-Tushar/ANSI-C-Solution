@@ -37,9 +37,7 @@ struct Student {
 
 typedef creates an alias for a data type:
 
-c
-Copy
-Edit
+
 typedef struct {
     int id;
     float marks;
