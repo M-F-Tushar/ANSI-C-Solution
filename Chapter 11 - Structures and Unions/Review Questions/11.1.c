@@ -177,9 +177,7 @@ A union can contain another union.
 
 Example:
 
-c
-Copy
-Edit
+
 union Inner {
     int x;
     float y;
