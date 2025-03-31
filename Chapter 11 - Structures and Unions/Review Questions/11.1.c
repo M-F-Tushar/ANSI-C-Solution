@@ -1,6 +1,5 @@
 11.1 State whether the following statements are true or false
 Let's analyze each statement:
-
 (a) A struct type in C is a built-in data type.
 ❌ False
 
