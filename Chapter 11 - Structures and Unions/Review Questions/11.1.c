@@ -69,9 +69,7 @@ p2 = p1; // Valid
 
 Example:
 
-c
-Copy
-Edit
+
 struct Point p = {10, 20};
 struct Point *ptr = &p;
 printf("%d", ptr->x);
