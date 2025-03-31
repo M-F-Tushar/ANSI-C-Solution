@@ -7,8 +7,6 @@ Let's analyze each statement:
 struct is not a built-in data type; it is a user-defined data type.
 
 Example:
-
-
 struct Student {
     int id;
     float marks;
