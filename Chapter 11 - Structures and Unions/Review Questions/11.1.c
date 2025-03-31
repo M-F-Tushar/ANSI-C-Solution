@@ -16,9 +16,7 @@ struct Student {
 
 A structure can be declared without a tag name:
 
-c
-Copy
-Edit
+
 struct {
     int id;
     float marks;
