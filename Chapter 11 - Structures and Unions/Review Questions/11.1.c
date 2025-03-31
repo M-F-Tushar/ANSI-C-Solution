@@ -8,9 +8,7 @@ struct is not a built-in data type; it is a user-defined data type.
 
 Example:
 
-c
-Copy
-Edit
+
 struct Student {
     int id;
     float marks;
