@@ -57,9 +57,7 @@ struct Book {
 
 Example:
 
-c
-Copy
-Edit
+
 struct Point {
     int x, y;
 };
