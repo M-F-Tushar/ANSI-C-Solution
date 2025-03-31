@@ -47,9 +47,7 @@ typedef struct {
 
 Structures hold multiple fields:
 
-c
-Copy
-Edit
+
 struct Book {
     char title[50];
     float price;
