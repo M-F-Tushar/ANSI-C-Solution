@@ -198,9 +198,7 @@ A structure can contain a union as a member.
 
 Example:
 
-c
-Copy
-Edit
+
 union Data {
     int i;
     float f;
