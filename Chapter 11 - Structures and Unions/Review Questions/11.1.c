@@ -127,16 +127,9 @@ Correct Statement: A structure can have another structure as a member.
 Structures can be passed by value or by pointer.
 
 Passing by value:
-
-c
-Copy
-Edit
 void display(struct Student s) { ... }
-Passing by pointer:
 
-c
-Copy
-Edit
+Passing by pointer:
 void display(struct Student *s) { ... }
 Corrected Statement: Structures can be passed by value or by pointer.
 
@@ -145,17 +138,11 @@ Corrected Statement: Structures can be passed by value or by pointer.
 
 Structures allow initializing multiple members at once:
 
-c
-Copy
-Edit
 struct Point {
     int x, y;
 } p = {10, 20};  // ✅ Valid initialization
 Unions can only initialize one member at a time:
 
-c
-Copy
-Edit
 union Data {
     int x;
     float y;
