@@ -2,7 +2,6 @@
 //calling function. Assume that x and y are defined as global variables.
 
 #include <stdio.h>
-
 // Function to swap two variables using pointers
 void exchange(int *a, int *b) {
     int temp = *a;
