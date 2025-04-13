@@ -1,8 +1,6 @@
 9.11 Compare two strings using strncmp().
 Solution:
-c
-Copy
-Edit
+
 #include <stdio.h>
 #include <string.h>
 
