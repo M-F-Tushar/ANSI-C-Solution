@@ -3,9 +3,7 @@
 (Similar to 9.10, but specifically searches for a student by roll number.)
 
 Solution:
-c
-Copy
-Edit
+
 #include <stdio.h>
 #include <string.h>
 
