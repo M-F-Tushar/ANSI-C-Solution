@@ -1,7 +1,5 @@
 9.12 What will be the output of the following code?
-c
-Copy
-Edit
+
 char s1[] = "Jaipur";
 char s2[] = "Jaipur";
 printf("%d", strncmp(s1, s2, 2));
