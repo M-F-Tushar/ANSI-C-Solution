@@ -3,9 +3,7 @@ Problem:
 Write a program to compare two strings without using string functions.
 
 Solution in C:
-c
-Copy
-Edit
+
 #include <stdio.h>
 
 int compareStrings(char *s1, char *s2) {
