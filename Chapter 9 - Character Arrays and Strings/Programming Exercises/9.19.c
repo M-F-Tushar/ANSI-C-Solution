@@ -1,8 +1,6 @@
 9.19 - Sort Strings in Lexicographical Order
 Solution in C:
-c
-Copy
-Edit
+
 #include <stdio.h>
 #include <string.h>
 
