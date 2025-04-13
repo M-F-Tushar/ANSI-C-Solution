@@ -1,13 +1,6 @@
 Problem 7.8
 Task: Compute values of
-𝑦
-=
-𝑒
-−
-𝑥
- for
-𝑥
- varying from
+𝑦=𝑒−𝑥 for 𝑥 varying from
 0.0
  to
 10.0
@@ -17,11 +10,7 @@ Task: Compute values of
 
 Approach:
 
-Use the exp() function from the math library to compute
-𝑒
-−
-𝑥
-.
+Use the exp() function from the math library to compute𝑒−𝑥.
 
 Use a loop to iterate through
 𝑥
@@ -31,7 +20,6 @@ Use a loop to iterate through
 
 Code in C:
 
-c
 #include <stdio.h>
 #include <math.h>
 
