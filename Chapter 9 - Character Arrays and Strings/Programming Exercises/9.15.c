@@ -2,9 +2,7 @@
 Problem:
 Given the string
 
-c
-Copy
-Edit
+
 char str[] = "123456789";
 Write a program to display the following pattern:
 
