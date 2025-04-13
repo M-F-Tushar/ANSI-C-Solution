@@ -3,9 +3,7 @@ Problem Statement:
 Write a program to read a line of text from the keyboard and print out the number of occurrences of a given substring using the strstr() function.
 
 C Program:
-c
-Copy
-Edit
+
 #include <stdio.h>
 #include <string.h>
 
