@@ -3,18 +3,7 @@ Task: Compute Euler's number
 𝑒
  using its series expansion:
 
-𝑒
-=
-1
-+
-1
-1
-!
-+
-1
-2
-!
-+
+𝑒=1+11!+12!+
 1
 3
 !
@@ -34,9 +23,7 @@ Stop the loop when the difference between terms is smaller than
 
 Use a helper function to calculate factorial.
 
-Code in C:
 
-c
 #include <stdio.h>
 
 // Function to calculate factorial
