@@ -1,8 +1,6 @@
 9.13 Copy characters from one string to another at a specific position.
 Solution:
-c
-Copy
-Edit
+
 #include <stdio.h>
 #include <string.h>
 
