@@ -5,9 +5,6 @@ Input: 7
 Output: 1 1 2 3 5 8 13
 
 Solution
-c
-Copy
-Edit
 #include <stdio.h>
 
 int main() {
