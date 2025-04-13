@@ -9,7 +9,7 @@ Implement logic for top, middle, and bottom sections of the "S".
 
 Code in C:
 
-c
+
 #include <stdio.h>
 
 int main() {
