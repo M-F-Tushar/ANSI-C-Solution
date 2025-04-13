@@ -1,8 +1,6 @@
 9.18 - Replace Spaces with Double Spaces
 Solution in C:
-c
-Copy
-Edit
+
 #include <stdio.h>
 
 int main() {
