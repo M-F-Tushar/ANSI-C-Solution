@@ -1,8 +1,6 @@
 9.17 - Find Largest and Smallest Word in a String
 Solution in C:
-c
-Copy
-Edit
+
 #include <stdio.h>
 #include <string.h>
 #include <limits.h>
