@@ -41,10 +41,8 @@ log(P/C)
 ​
 
 Print n.
-C Program:
 
-c
-Copy code
+
 #include <stdio.h>
 #include <math.h>
 
