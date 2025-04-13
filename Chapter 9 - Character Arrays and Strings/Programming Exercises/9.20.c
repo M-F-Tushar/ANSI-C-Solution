@@ -1,9 +1,7 @@
 
 9.20 - Concatenate Two Strings Without Using String Functions
 Solution in C:
-c
-Copy
-Edit
+
 #include <stdio.h>
 
 void concatenate(char *str1, char *str2) {
