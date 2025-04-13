@@ -1,8 +1,6 @@
 7.13 Print a square of size 5 using character 'S'
 Pattern:
 
-nginx
-Copy code
 S S S S S
 S S S S S
 S S S S S
