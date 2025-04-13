@@ -1,8 +1,6 @@
 9.9 Convert currency format (RRRR.PP) into words.
 Solution:
-c
-Copy
-Edit
+
 #include <stdio.h>
 #include <string.h>
 
