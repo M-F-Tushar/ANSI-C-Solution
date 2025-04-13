@@ -2,8 +2,6 @@
 7.15 Modify the square pattern with 'O' at the center
 Pattern:
 
-mathematica
-Copy code
 S S S S S
 S S S S S
 S S O S S
@@ -15,8 +13,6 @@ Use two nested loops.
 If i == size/2 && j == size/2, print 'O', else print 'S'.
 C Program:
 
-c
-Copy code
 #include <stdio.h>
 
 int main() {
