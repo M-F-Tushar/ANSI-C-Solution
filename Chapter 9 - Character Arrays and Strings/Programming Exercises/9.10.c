@@ -1,9 +1,7 @@
 
 9.10 Read and store student details and produce sorted lists.
 Solution:
-c
-Copy
-Edit
+
 #include <stdio.h>
 #include <string.h>
 
