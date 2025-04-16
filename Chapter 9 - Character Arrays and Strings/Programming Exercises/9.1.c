@@ -1,4 +1,4 @@
-9.1 Write a program that reads your name from the keyboard and outputs a list of ASCII codes, which represent your name.
+//9.1 Write a program that reads your name from the keyboard and outputs a list of ASCII codes, which represent your name.
 Solution:
 
 #include <stdio.h>
@@ -15,9 +15,10 @@ int main() {
 
     return 0;
 }
+/*
 Explanation:
 Takes input as a string.
 
 Loops through each character and prints its ASCII value.
 
-
+*/
