@@ -1,10 +1,9 @@
-Debugging Exercise 11.1
+/*
+    Debugging Exercise 11.1
 Problem Statement
 Find errors in the following statements:
+*/
 
-c
-Copy
-Edit
 struct abc {
     int a1;
     float b1;
@@ -32,9 +31,7 @@ Issue: a1 is of type abc, but x1 is of type xyz. Assignment between different st
 
 Fix: Manually assign corresponding fields if they exist.
 
-c
-Copy
-Edit
+
 a1.a1 = x1.x;
 a1.b1 = x1.y;
 (b) abc.a1 = 10.75; ❌ Invalid
@@ -42,18 +39,14 @@ Issue: abc is the structure name, not a variable.
 
 Fix: Assign to a valid instance:
 
-c
-Copy
-Edit
+
 a1.a1 = 10;  // 'a1' is an integer, 10.75 would cause loss of precision
 (c) int m = a + x; ❌ Invalid
 Issue: a and x are not declared variables.
 
 Fix: If the intention was a1 and x1, it must use correct members:
 
-c
-Copy
-Edit
+
 int m = a1.a1 + x1.x;
 (d) int n = x1.x + 10; ✅ Valid
 Correct statement. x1.x is an integer, so the operation is valid.
@@ -66,32 +59,21 @@ Issue: a1.a does not exist; it should be a1.a1.
 
 Fix:
 
-c
-Copy
-Edit
 if (a1.a1 > x1.x) ...
 (g) if (a1.a < x1.x) ... ❌ Invalid
 Issue: Same as (f). Use correct member names.
 
 Fix:
 
-c
-Copy
-Edit
 if (a1.a1 < x1.x) ...
 (h) if (x1 != x2) ... ❌ Invalid
 Issue: Structure comparison is not allowed in C.
 
 Fix: Compare individual members:
 
-c
-Copy
-Edit
 if (x1.x != x2.x || x1.y != x2.y) ...
 Final Corrected Code
-c
-Copy
-Edit
+
 #include <stdio.h>
 
 struct abc {
