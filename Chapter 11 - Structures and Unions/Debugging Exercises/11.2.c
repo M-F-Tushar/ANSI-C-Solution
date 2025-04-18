@@ -2,9 +2,6 @@ Debugging Exercise 11.2
 Problem Statement
 Find the error in the following program:
 
-c
-Copy
-Edit
 typedef struct product {
     char name[10];
     float price;
@@ -14,9 +11,6 @@ Issue: PRODUCT products[10]; is declared within the typedef statement, which is 
 
 Fix:
 
-c
-Copy
-Edit
 typedef struct product {
     char name[10];
     float price;
